@@ -1,0 +1,34 @@
+/*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS                                        *
+ *                                                   *
+ * By Michael Teeuw http://michaelteeuw.nl           *
+ * MIT Licensed.                                     *
+ *                                                   *
+ * Add any custom CSS below.                         *
+ * Changes to this files will be ignored by GIT. *
+ *****************************************************/
+
+ body {
+	font-family: 'Shadows Into Light', cursive;
+ }
+header {
+  font-family: "Shadows Into Light";
+}
+
+.light {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.regular {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.bold {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.thin {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-weight: 100;
+}
