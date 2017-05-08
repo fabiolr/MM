@@ -14,10 +14,29 @@ Module.register("helloworld",{
 		text: "Olá Mundo!"
 	},
 
-	// Override dom generator.
+
+	init: function(){
+
+		this.timeToHide();
+
+	},
+
 	getDom: function() {
 		var wrapper = document.createElement("div");
 		wrapper.innerHTML = this.config.text;
 		return wrapper;
-	}
+	},
+
+	timeToHide: function() {
+
+	var self = this;
+
+    v = setTimeout(function (){self.hide()}, 10000);
+
+    return v;
+
+	},
+
+	
+	
 });
